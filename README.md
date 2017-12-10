@@ -1,9 +1,9 @@
 # bible-qr-code
 
-Have you ever wanted to generate a QR code that opens a bible app to a specific spot?
+Have you ever wanted to generate a QR code that opens a bible to a specific spot?
 
-This simple python script does just that - it uses a URI intent that the YouVersion
-Bible app handles to launch the bible app to the desired locaiton.
+This simple python script does just that - it uses a [URI intent](https://developer.android.com/reference/android/content/Intent.html) that the
+[YouVersion Bible app](https://www.youversion.com/) handles to launch the bible app to the desired location.
 
 ## Installation
 
