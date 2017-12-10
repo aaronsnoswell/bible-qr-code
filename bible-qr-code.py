@@ -168,6 +168,13 @@ def main():
         help='Three letter Bible version code (e.g. "KJV")'
     )
     parser.add_argument(
+        '--zoom',
+        '-z',
+        dest='zoom',
+        default=5,
+        help='Scale factor to apply to the QR code'
+    )
+    parser.add_argument(
         'book',
         help='Desired book (e.g. "Genesis")'
     )
@@ -184,7 +191,7 @@ def main():
 
     print("Generating QR code for intent URI:")
     print(intent_uri)
-    make_qr_code(intent_uri, args.output)
+    make_qr_code(intent_uri, args.output, args.zoom)
     print("Saved {0}".format(args.output))
 
 

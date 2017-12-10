@@ -11,4 +11,11 @@ This simple python script does just that - it uses a [URI intent](https://develo
 
 ## Usage
 
-`python bible-qr-code.py --output "test.png" --chapter 1 -start_verse 1 -end_verse 5 -version "ESV" "Genesis"`
+```
+python bible-qr-code.py --output test.png --chapter 1 --start_verse 1 --end_verse 5 --version ESV Genesis
+Generating QR code for intent URI:
+https://www.bible.com/en-GB/bible/1/GEN.1.1-5.ESV
+Saved test.png
+```
+
+![QR Code for above example](test.png)
